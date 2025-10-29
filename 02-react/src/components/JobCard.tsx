@@ -56,12 +56,13 @@ JobCard.ApplyButton = ({ onClick }: ApplyButtonProps) => {
         onClick?.();
     };
 
-    const text = isApplied ? 'Aplicado' : 'Aplicar';
-    const buttonClass = isApplied ? 'is-applied' : '';
+    const buttonText = isApplied ? 'Aplicado' : 'Aplicar'
+    const buttonClasses = isApplied ? 'button-apply-job is-applied' : 'button-apply-job'
+
 
     return (
-        <button className={buttonClass} onClick={handleClick}>
-            {text}
+        <button className={buttonClasses} onClick={handleClick}>
+            {buttonText}
         </button>
     );
 };

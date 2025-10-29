@@ -1,12 +1,12 @@
-
 interface SearchbarProps {
     classStyle?: string
     placeholder?: string
+    onChangeSearch: (value: string) => void
+    onSearch: () => void
     isEnabledButton?: boolean
-    onChangeSearch?: (value: string) => void
 }
 
-export const Searchbar = ({ isEnabledButton, classStyle, placeholder, onChangeSearch }: SearchbarProps) => {
+export const Searchbar = ({ isEnabledButton = true, classStyle, placeholder, onChangeSearch, onSearch }: SearchbarProps) => {
 
     const handleChangeSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
         const value = event.target.value;
@@ -25,7 +25,7 @@ export const Searchbar = ({ isEnabledButton, classStyle, placeholder, onChangeSe
 
             <input required type="text" placeholder={placeholder} onChange={handleChangeSearch} />
 
-            <button hidden={isEnabledButton} disabled type="submit">Buscar</button>
+            <button hidden={!isEnabledButton} type="button" onClick={onSearch}>Buscar</button>
         </div>
     )
 }
