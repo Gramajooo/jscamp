@@ -1,0 +1,122 @@
+[
+    {
+        "value": "remoto",
+        "label": "Remoto"
+    },
+    {
+        "value": "cdmx",
+        "label": "Ciudad de México"
+    },
+    {
+        "value": "guadalajara",
+        "label": "Guadalajara"
+    },
+    {
+        "value": "monterrey",
+        "label": "Monterrey"
+    },
+    {
+        "value": "barcelona",
+        "label": "Barcelona"
+    },
+    {
+        "value": "bogota",
+        "label": "Bogotá"
+    },
+    {
+        "value": "santiago",
+        "label": "Santiago"
+    },
+    {
+        "value": "buenosaires",
+        "label": "Buenos Aires"
+    },
+    {
+        "value": "lima",
+        "label": "Lima"
+    },
+    {
+        "value": "quito",
+        "label": "Quito"
+    },
+    {
+        "value": "caracas",
+        "label": "Caracas"
+    },
+    {
+        "value": "medellin",
+        "label": "Medellín"
+    },
+    {
+        "value": "asuncion",
+        "label": "Asunción"
+    },
+    {
+        "value": "montevideo",
+        "label": "Montevideo"
+    },
+    {
+        "value": "la_paz",
+        "label": "La Paz"
+    },
+    {
+        "value": "sucre",
+        "label": "Sucre"
+    },
+    {
+        "value": "cali",
+        "label": "Cali"
+    },
+    {
+        "value": "cartagena",
+        "label": "Cartagena"
+    },
+    {
+        "value": "salvador",
+        "label": "Salvador"
+    },
+    {
+        "value": "recife",
+        "label": "Recife"
+    },
+    {
+        "value": "fortaleza",
+        "label": "Fortaleza"
+    },
+    {
+        "value": "porto_alegre",
+        "label": "Porto Alegre"
+    },
+    {
+        "value": "tijuana",
+        "label": "Tijuana"
+    },
+    {
+        "value": "merida",
+        "label": "Mérida"
+    },
+    {
+        "value": "puebla",
+        "label": "Puebla"
+    },
+    {
+        "value": "cancun",
+        "label": "Cancún"
+    },
+    {
+        "value": "valparaiso",
+        "label": "Valparaíso"
+    },
+    {
+        "value": "santa_cruz",
+        "label": "Santa Cruz"
+    },
+    {
+        "value": "tucuman",
+        "label": "Tucumán"
+    },
+    {
+        "value": "cordoba",
+        "label": "Córdoba"
+    }
+]

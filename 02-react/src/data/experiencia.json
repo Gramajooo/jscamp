@@ -1,0 +1,18 @@
+[
+    {
+        "value": "junior",
+        "label": "Junior"
+    },
+    {
+        "value": "mid",
+        "label": "Mid-level"
+    },
+    {
+        "value": "senior",
+        "label": "Senior"
+    },
+    {
+        "value": "lead",
+        "label": "Lead"
+    }
+]

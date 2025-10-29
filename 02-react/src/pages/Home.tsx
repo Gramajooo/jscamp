@@ -1,6 +1,7 @@
 import homBackground from '../assets/background.webp';
 import { CardArticle } from '../components/CardArticle';
 import { Searchbar } from '../components/Searchbar';
+
 export const Home = () => {
   return (
     <main>
@@ -9,8 +10,10 @@ export const Home = () => {
         <img src={homBackground} width="200" alt="Home" />
         <h1>Encuentra el trabajo de tus sueños</h1>
         <p>Únete a la comunidad más grande de desarrolladores y encuentra tu próxima oportunidad.</p>
-        <Searchbar />
-      </section>°
+        <form role="search">
+          <Searchbar placeholder="Buscar empleos por título, habilidad o empresa" />
+        </form>
+      </section>
 
       <section>
         <header>

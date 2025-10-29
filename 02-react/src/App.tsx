@@ -1,17 +1,20 @@
-import './App.css'
-import { Header, MenuPages } from './components/Navbar'
-import { Home } from './pages/Home'
+import { BrowserRouter } from 'react-router-dom';
+import './App.css';
+import { Footer } from './components/Footer';
+import { Header, MenuPages } from './components/Navbar';
+import { AllRoutes } from './components/Routes/AllRoutes';
 
-function App() {
 
+export const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <Header>
         <MenuPages />
       </Header>
-      <Home/>
-    </>
-  )
-}
+      <AllRoutes />
+      <Footer />
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
